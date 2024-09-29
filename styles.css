@@ -1,0 +1,127 @@
+#requestTrial {
+    color: #fff;
+    font-family: Poppins;
+}
+
+#requestTrial .bgMobile {
+    background: url('images/bgMobile.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 29px;
+}
+
+#requestTrial .form-card {
+    background-color: #000958;
+    border: none;
+    padding: 12px;
+    border-radius: 0px;
+}
+
+
+
+#requestTrial h1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+#requestTrial h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+#requestTrial p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#requestTrial .btn-submit {
+    border-radius: 8px;
+    background: #F18234;
+    display: inline-flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#requestTrial .form-label {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+}
+
+#requestTrial .form-control,
+#requestTrial .form-select {
+    display: flex;
+    height: 48px;
+    padding: 12px 298.697px 12px 12.303px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    background-color: #FFF;
+    margin-bottom: 14px;
+}
+
+.form-control::placeholder {
+    color: #00000099;
+}
+
+@media (min-width: 768px) {
+    #requestTrial {
+        height: 100vh;
+        /* padding-top: 32px; */
+        background: url('images/bgWeb.png') no-repeat center center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #requestTrial .bgMobile {
+        background: none;
+        background-size: auto;
+        height: auto;
+        padding-top: 0px;
+    }
+
+    #requestTrial h1 {
+        font-size: 32px;
+        font-weight: 700;
+
+    }
+
+    #requestTrial p {
+        font-size: 20px;
+        line-height: 32px; /* 160% */
+    }
+
+    #requestTrial .form-card {
+        background-color: #000958;
+        border: none;
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+    #requestTrial .btn-submit {
+        max-width: fit-content;
+    }
+}
