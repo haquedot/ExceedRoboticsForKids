@@ -85,7 +85,7 @@
     color: #00000099;
 }
 
-@media (min-width: 768px) {
+@media (min-width:992px) {
     #requestTrial {
         height: 100vh;
         /* padding-top: 32px; */
@@ -111,7 +111,8 @@
 
     #requestTrial p {
         font-size: 20px;
-        line-height: 32px; /* 160% */
+        line-height: 32px;
+        /* 160% */
     }
 
     #requestTrial .form-card {
